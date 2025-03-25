@@ -1,0 +1,6 @@
+<div class ="container">
+<img [src]="imagem" class="img">
+<p  [hidden]="exibir" class="texto">{{ fraseExibida }}</p>
+<button class="botao" [hidden]="!exibir" (click)="sortearFrase()">Um clique</button>
+<button class="secundario" (click) = "alternarEstado()">Outro clique</button>
+</div>
